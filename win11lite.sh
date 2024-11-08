@@ -13,7 +13,7 @@ sudo apt-get install unrar
 echo install qemu
 sudo apt install qemu-system-x86 curl -y > /dev/null 2>&1
 echo install mint iso
-wget https://github.com/Atlas-OS/atlas-releases/releases/download/1803/Atlas_1803_v0.2.iso
+wget https://file.cnxiaobai.com/Windows/%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%8C%85/AtlasOS/Atlas_1803_v0.2.iso
 echo making disk
 qemu-img create win11.vdi 100G
 echo Your VNC IP Address:
